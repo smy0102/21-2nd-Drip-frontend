@@ -7,7 +7,14 @@
 <img width="486" alt="DRIP_메인페이지" src="https://user-images.githubusercontent.com/67620484/125184605-288a0500-e25a-11eb-9d49-0c802de12536.png">
 <br>
 
-## 프로젝트 계획 및 기간
+### 시연 영상 확인
+<a href="https://youtu.be/cxtBWz6Fbss">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white/"
+        style="width: 80px; height : auto; margin-left : 10px; margin-right : 10px;"/>
+</a>  
+<br><br>
+
+### 프로젝트 계획 및 기간
 
 📆 2021.06.21 ~ 07.02
 
@@ -27,12 +34,16 @@
 - 2명의 팀원들이 공통 `styled-component` 사용
 - 공통부분인 Nav, Footer 컴포넌트 제작
 
+<br>
+
 ### 1. 소셜 로그인, 로그아웃 페이지
 ![DRIP_로그인](https://user-images.githubusercontent.com/67620484/125184628-5707e000-e25a-11eb-9e35-19c65d68c998.gif)
 
 - 카카오 로그인 API를 활용한 구성
 - 카카오를 통해 Token을 받고 Backend와의 통신이 완료되면 Backend로부터 Token을 받아 Localstorage에 저장
 - 카카오 로그아웃 API를 통해 로그아웃을 실행하고 성공하면 Localstorage에 저장 된 Token 삭제
+
+<br>
 
 ### 2. 메인 페이지
 ![DRIP_메인](https://user-images.githubusercontent.com/67620484/125184638-730b8180-e25a-11eb-98b2-d7b9ca6fc59e.gif)
@@ -42,12 +53,16 @@
 - 클릭 시 검색페이지로 이동하는 상단바 노출
 - 상품 찜하기 버튼 구현
 
+<br>
+
 ### 3. 메뉴(카테고리별 ) 페이지
 ![DRIP_하위카테고리](https://user-images.githubusercontent.com/67620484/125184737-3f7d2700-e25b-11eb-9cf0-73d3f152f6ec.gif)
 
 - 상품 종류인 액티비티, 배움 상품 메뉴 리스트 구현
 - 상품 종류별 서브카테고리 클릭 시 필터 적용된 상품 리스트 노출 구현
 - 인기순, 평점순, 가격순 정렬 필터 구현
+
+<br>
 
 
 ### 4. 주문 페이지
@@ -57,6 +72,8 @@
 - 액티비티 참여 날짜, 인원 수 선택 기능 구현
 - 참여하기 클릭 시 사용자 정보, 참여 옵션 데이터 저장
 
+<br>
+
 ### 5. 상품 검색 페이지 
 ![DRIP_검색](https://user-images.githubusercontent.com/67620484/125184676-b4039600-e25a-11eb-9af9-cb0deedcca0e.gif)
 
@@ -64,7 +81,7 @@
 - 인기 상품 클릭 시 해당 상품 상세 페이지 이동 기능 구현
 - 검색 시 관련 상품 리스트 노출 및 관련 상품 없을 시 재검색 안내 페이지 노출 구현
 
-
+<br>
 
 ## 🛠 사용한 기술
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"/> <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
